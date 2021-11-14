@@ -1,0 +1,40 @@
+.card-design{
+    height: 620px;
+   border:none !important;
+     
+}
+.card-design .image-size{
+ 
+    height: 298px;
+    width: 298px;
+}
+.card-design button{
+    font-weight: 400;  
+    transition:  1s;
+    background-color: white;
+border: 1px solid rgb(221, 217, 217);
+
+}
+.card-design button:hover{
+   background: #000000;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+
+
+@media screen and (max-width: 600px) and (min-width: 360px) {
+
+
+.card-design{
+    height: 620px;
+}
+
+.card-design .image-size{
+ 
+    height: 298px;
+    width: 100%;
+}
+
+}

@@ -1,0 +1,25 @@
+.admin{
+    display: flex;
+}
+.admin button{
+    border:none;
+    background-color: white;
+}
+.bg-color{
+    background-color: white;
+}
+
+@media screen and (max-width: 600px) and (min-width: 360px) {
+
+.admin{
+    flex-direction: column;
+   
+}
+.admin button {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 18px;
+}
+
+
+}

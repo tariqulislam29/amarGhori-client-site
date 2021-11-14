@@ -1,0 +1,66 @@
+.res-image{
+    width:100%;
+    height: 95vh;
+}
+.carousel-caption{
+    transform: translateX(-30%);
+   
+    bottom: initial;
+  
+    top: 30%;
+    color: rgb(255, 255, 255);
+   
+}
+.carousel-indicators button
+{
+    width: 5px !important;
+    height: 5px !important;
+    border-radius: 50% !important;
+}
+.carousel-caption h3{
+    font-size: 3rem;
+    margin: 17px 0;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+
+}
+
+.carousel-control-prev-icon:hover , .carousel-control-next-icon:hover{
+    background-color: black;
+    
+}
+.carousel-caption button{
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    padding: 5px 25px;
+    border: none;
+    font-weight: 300;
+    transition: 0.5s;
+  
+}
+.carousel-caption button:hover{
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 600px) and (min-width: 360px) {
+
+.carousel-caption{
+    transform: translateY(-50%);
+    top: 40%;
+   
+   
+}
+
+
+}
+
+
